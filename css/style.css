@@ -1,0 +1,142 @@
+nav{
+    background: #57737A;
+}
+body{
+    background: #C2FCF7;
+}
+.most{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    
+}
+.button{
+    background-color: #ffffff;
+    color: #57737A;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo{
+    height: 100px;
+}
+p{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.image{
+    border-color: #85BDBF;
+    border-radius: 10px;
+    max-height: 30vh;
+}
+.navbar-nav a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+nav h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+img{
+    max-width: 100%;
+    
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.lightbox{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.9);
+    z-index: 999;
+    padding: 1em;
+}
+.lightbox > span{
+    display: block;
+    max-width: 80%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:0 auto;
+}
+.lightbox:target{
+    display: block;
+}
+.imageone{
+    background-image: url("../images/burn.png");
+}
+.imagetwo{
+    background-image: url("../images/murrayForestPack_2.jpg");
+}
+.imagethree{
+    background-image: url("../images/murrayAgency_1.jpg");
+}
+.imagefour{
+    background-image: url("../images/murrayDH7.jpg");
+}
+.imagefive{
+    background-image: url("../images/murrayDH16531.jpg");
+}
+.imagesix{
+    background-image: url("../images/murrayDH28.jpg");
+}
+figcaption{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+h1{
+    text-align: center;
+}
+address{
+    text-align: center;
+}
+iframe{
+    height: 50%;
+    width: 50%;
+}
+main{
+    margin:0 auto;
+    width: 80%;
+    font-size: 1.3em;
+    padding: 10px;
+}
+hr{
+    height: 5px;
+    background-color:black;
+}
